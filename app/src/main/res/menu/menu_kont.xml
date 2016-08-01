@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/context_menu">
+        <item android:id="@+id/Pokaz_opis_menu"
+              android:title="Pokaz opis" />
+        <item android:id="@+id/Polacz_menu"
+              android:title="Polacz" />
+        <item android:id="@+id/Usun_Menu"
+              android:title="Usun" />
+        <item android:id="@+id/odswierz_liste"
+              android:title="Odswierz liste" />
+    </group>
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.projects.ola.studiaz71.RecordActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_imie"
+        android:hint="@string/edit_text_imie"
+        android:maxLength="30"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_nazwisko"
+        android:hint="@string/edit_text_nazwisko"
+        android:maxLength="30"
+        android:layout_below="@+id/edit_text_imie"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_tytul"
+        android:hint="@string/edit_text_tytul"
+        android:maxLength="30"
+        android:layout_below="@+id/edit_text_nazwisko"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_opis"
+        android:hint="@string/edit_text_opis"
+        android:maxLength="100"
+        android:layout_below="@+id/edit_text_tytul"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/button_start_stop"
+        android:layout_above="@+id/lin_lay_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/lin_lay_1"
+    android:gravity="center_horizontal"
+    android:layout_above="@+id/button_go_to_list"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odtworz"
+            android:id="@+id/button_odtworz"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zapisz"
+            android:id="@+id/button_save"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skasuj"
+            android:id="@+id/button_delete"/>
+
+</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista"
+        android:id="@+id/button_go_to_list"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="56dp"/>
+
+
+</RelativeLayout>

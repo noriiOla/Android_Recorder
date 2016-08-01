@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StudiaZ7(1)</string>
+    <string name="edit_text_imie">Imie (max 30 znakow)</string>
+    <string name="edit_text_nazwisko">Nazwisko (max 30 znakow)</string>
+    <string name="edit_text_tytul">Tytul (max 30 znakow)</string>
+    <string name="edit_text_opis">Opis (max 100 znakow)</string>
+</resources>
